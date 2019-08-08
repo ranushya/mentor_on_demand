@@ -1,0 +1,37 @@
+overridiing hashcode method 
+ try catch within catch
+ try
+      {
+         int b=10/0;
+      }catch(ArithmeticException e)
+      {
+         System.out.println("ArithmeticException occurred");
+         try
+         {
+         int c=20/0;
+         }catch(ArithmeticException e1)
+         {
+            System.out.println("Another ArithmeticException occurred");
+         }
+      }
+
+
+
+7/8/19
+
+1.try to set the priority after strating the thread
+2.Hello how are you doing?---synchronizedEg thread
+t1-hello 
+t2-how 
+3.ngif
+4.ng class
+5.ng Style
+
+8/8/19
+
+1.create a time out session in 2-way binding to erase the msg 
+2.ngswitch
+3.Create a Parent component which can render Child Component multiple times. Parent component has an array of employee details.employee has name,id,salary department
+4.Create a Child component which has  takes two inputs from parent component. NOTE: Use two @Input in CHild component
+5.Create a Angular Component which has input text and a button, and table. Whenever a text is enetered and Submit button is pressed, that text need to get added as a new row in the Table
+
