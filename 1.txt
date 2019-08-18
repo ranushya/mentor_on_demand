@@ -1,0 +1,12 @@
+insert into trainings values(1,50000,now(),now(),90000,1,'adsccc',5,1,'spring',now(),now(),'proposed',1,'yryishu');
+
+
+insert data in mentor tables
+
+insert into mentor_skills values(1,'material, examples/cloud labs',1,4,1,'yes',5);
+insert into mentor values(1,1,'aa','awer',now(),'anu',12);
+insert into skills values(1,'aaa',now(),'anu','aaa');
+
+insert into mentor_calender(1,1,now(),now(),now(),now());
+create table mentor_skills(mid int(10),msid Bigint(10) primary key,skill_id Bigint(10),self_rating float,years_of_exp int(10),trainings_delivered varchar(100),facilities_offered varchar(100),FOREIGN KEY (mid) REFERENCES mentor(mid));
+
